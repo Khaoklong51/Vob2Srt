@@ -1,5 +1,5 @@
 # Vob2Srt
-program to ocr text using google cloud vision ai api\
+program to ocr image subtitle(VobSub and PGSSub) using google cloud vision ai api\
 Using image extract from SubtitleEdit using BDN xml/png option\
 Using blank Srt file save from SubtitleEdit
 
