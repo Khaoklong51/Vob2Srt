@@ -3,7 +3,7 @@ program to ocr text using google cloud vision ai api\
 Using image extract from SubtitleEdit using BDN xml/png option\
 Using blank Srt file save from SubtitleEdit
 
-## options
+## Usage
 ```
 usage: main.py [-h] [-i INPUT_FOLDER] [-o OUTPUT_SUB] [-l LANGUAGE] [-k KEY] [-s SUB] [--version]
 
