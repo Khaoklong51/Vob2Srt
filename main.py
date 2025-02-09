@@ -1,7 +1,7 @@
 import os
 import re
 import argument  # Custom argument module
-import request  # Custom OCR module
+import request_text  # Custom OCR module
 import shutil
 from tqdm import tqdm  # Progress bar
 import sys
@@ -47,7 +47,7 @@ def ocr_image():
                                 print(f"File {files[text_idx]} is missing. Skipping...")
                                 outfile.write("[Missing Image]\n")
                             else:
-                                text = request.request_text(img_path).strip()
+                                text = request_text.request_text(img_path).strip()
                                 outfile.write(f"{text}\n\n")
 
                             text_idx += 1
